@@ -1,0 +1,13 @@
+:root {
+    /* COLORS */
+    --ngdevelop-primary: rgb(27, 172, 78);
+    --ngdevelop-night: #232d2a;
+    --ngdevelop-night-darker: #181818;
+    --ngdevelop-darkgray-lighter: #6c857d;
+    --ngdevelop-link-blue: #0078bd;
+    --ngdevelop-link-blue-light: rgb(57, 206, 243);
+    --ngdevelop-text-color: #191819;
+    --ngdevelop-white: #ffffff;
+    --ngdevelop-black: #000000;
+  }
+  

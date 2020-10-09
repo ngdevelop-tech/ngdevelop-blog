@@ -1,0 +1,28 @@
+h2 {
+  text-align: center;
+}
+ul {
+  li {
+    border: 1px solid #888;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 4px 5px 4px 0px #d8d3d3;
+    list-style: none;
+    &:hover {
+      cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.02);
+    }
+
+    .label {
+      color: white;
+      padding: 2px 6px;
+    }
+    .published {
+      background: var(--ngdevelop-primary);
+    }
+    .draft {
+      background: var(--ngdevelop-darkgray-lighter);
+    }
+  }
+}
