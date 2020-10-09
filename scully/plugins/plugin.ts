@@ -1,12 +1,13 @@
 
 import { registerPlugin, getPluginConfig } from '@scullyio/scully';
 
-export const myPlugin = 'myPlugin';
+export const COPY_TO_CLIPBOARD = 'COPY_TO_CLIPBOARD';
 
-const myFunctionPlugin = async (html: string): Promise<string> => {
+const copyToClipboardPlugin = async (html: string): Promise<string> => {
+  console.log(html);
   return html;
 };
 
 const validator = async () => [];
 
-registerPlugin('render', myPlugin, myFunctionPlugin, validator);
+registerPlugin('render', COPY_TO_CLIPBOARD, copyToClipboardPlugin, validator);
